@@ -27,6 +27,8 @@ app.get('/api/config/paypal', (req, res) => {
     res.send(paypalId);
 });
 const __dirname = path.resolve();
+app.use(express.static(path.join(__dirname, '/sklep/build')));
+app.get('*', (req, res) => res.sendFile(__dirname, '/sklep/build/index.html'));
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 app.use((err, req, res, next) => {
     res.status(500).send({message: err.message});
