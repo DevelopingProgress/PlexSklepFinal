@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd sklep && npm i && npm run build",
+    "build": "cd sklep && npm install && npm run build && cd ../PlexSklepFinal && npm install",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "author": "",
