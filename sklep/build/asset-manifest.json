@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c1ac3ad.chunk.css",
+    "main.js": "/static/js/main.ac574cf2.chunk.js",
+    "main.js.map": "/static/js/main.ac574cf2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ea68198.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ea68198.js.map",
+    "static/js/2.3ef25a38.chunk.js": "/static/js/2.3ef25a38.chunk.js",
+    "static/js/2.3ef25a38.chunk.js.map": "/static/js/2.3ef25a38.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7c1ac3ad.chunk.css.map": "/static/css/main.7c1ac3ad.chunk.css.map",
+    "static/js/2.3ef25a38.chunk.js.LICENSE.txt": "/static/js/2.3ef25a38.chunk.js.LICENSE.txt",
+    "static/media/p1.20122e50.jpg": "/static/media/p1.20122e50.jpg",
+    "static/media/subufery-z-cieniem-removebg-preview.0779f8b2.png": "/static/media/subufery-z-cieniem-removebg-preview.0779f8b2.png",
+    "static/media/video.0775763b.mp4": "/static/media/video.0775763b.mp4",
+    "static/media/whiteplex.6433bf2f.png": "/static/media/whiteplex.6433bf2f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ea68198.js",
+    "static/js/2.3ef25a38.chunk.js",
+    "static/css/main.7c1ac3ad.chunk.css",
+    "static/js/main.ac574cf2.chunk.js"
+  ]
+}
