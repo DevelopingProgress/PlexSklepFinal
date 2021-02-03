@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/plexsklep', {
 app.use('/api/uploads', uploadRoute);
 app.use('/api/users', userRoute);
 app.use('/api/products', productRoute);
-app.use('/api/orders/', orderRoute);
+app.use('/api/orders', orderRoute);
 app.get('/api/config/paypal', (req, res) => {
     const paypalId = process.env.PAYPAL_CLIENT || 'sb';
     res.send(paypalId);
