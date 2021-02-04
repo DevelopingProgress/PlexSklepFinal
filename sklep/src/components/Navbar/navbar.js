@@ -85,7 +85,7 @@ export const Navbar = ({toggle}) => {
                             )}
                         </NavBtnLink>
 
-                        {userInfo ? (
+                        {userInfo && !userInfo.isAdmin ? (
                             <div className="dropdown">
                                 <Link to="#" className="whitened hoverred" style={{ fontSize: '1.3rem'}}>
                                     {userInfo.name} <i className="fa fa-caret-down"/>
