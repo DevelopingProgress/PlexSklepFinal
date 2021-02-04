@@ -65,7 +65,7 @@ export const SecondaryNavbar = ({toggle}) => {
                                             <Link to="/history" className="whitened hoverred" style={{fontSize: '1.3rem'}}>Moje Zamówienia</Link>
                                         </li>
                                         <li>
-                                            <Link to="#signout" className="whitened hoverred" style={{fontSize: '1.3rem'}} onClick={signoutHandler}>Wyloguj się</Link>
+                                            <Link to="/" className="whitened hoverred" style={{fontSize: '1.3rem'}} onClick={signoutHandler}>Wyloguj się</Link>
                                         </li>
                                     </ul>
                                 </div>
