@@ -69,8 +69,7 @@ export const SecondaryNavbar = ({toggle}) => {
                                         </li>
                                     </ul>
                                 </div>
-                            ) : (<Link to="/login" className="whitened hoverred" style={{fontSize: '1.3rem'}}>Zaloguj się</Link>)}
-                            {userInfo && userInfo.isAdmin && (
+                            ) : (userInfo && userInfo.isAdmin ? (
                                 <div className="dropdown">
                                     <Link to="#" className="whitened hoverred" style={{ fontSize: '1.3rem'}}>
                                         Administracja <i className="fa fa-caret-down"/>
@@ -93,7 +92,7 @@ export const SecondaryNavbar = ({toggle}) => {
                                         </li>
                                     </ul>
                                 </div>
-                            )}
+                            ) : (<Link to="/login" className="whitened hoverred" style={{fontSize: '1.3rem'}}>Zaloguj się</Link>))}
 
                         </NavBtn>
                     </NavbarContainer>
