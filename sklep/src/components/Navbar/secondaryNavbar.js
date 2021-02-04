@@ -27,7 +27,7 @@ export const SecondaryNavbar = ({toggle}) => {
 
     const signoutHandler = () => {
         dispatch(signout());
-        window.location.reload(false);
+        window.location.href = '/';
     }
 
 
