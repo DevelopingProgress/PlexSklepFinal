@@ -41,7 +41,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home" scrollNav={scrollNav}>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg controls disablePictureinPicture controlsList="nodownload" autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Przedsiębiortswo Techniczne PLEX</HeroH1>
