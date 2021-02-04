@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     margin-top: 20px;
     
     
