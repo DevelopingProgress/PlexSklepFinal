@@ -110,9 +110,6 @@ export const Navbar = ({toggle}) => {
                                 </Link>
                                 <ul className="dropdown-content">
                                     <li>
-                                        <Link to="/admin" className="whitened hoverred" style={{fontSize: '1.3rem'}}>Panel Administratora</Link>
-                                    </li>
-                                    <li>
                                         <Link to="/productlist" className="whitened hoverred" style={{fontSize: '1.3rem'}}>Produkty</Link>
                                     </li>
                                     <li>
